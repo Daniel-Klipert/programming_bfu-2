@@ -6,4 +6,4 @@ project("${PROJECT_NAME}")
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable("${PROJECT_NAME}" main.cpp)
+add_executable("${PROJECT_NAME}" main.cpp country.hpp country.cpp)
